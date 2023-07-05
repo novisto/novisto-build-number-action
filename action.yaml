@@ -1,6 +1,7 @@
 name: Generate Build Number
-icon: box
-color: blue
+branding:
+  icon: box
+  color: blue
 author: Novisto
 description: Generate a build number in the format of "YYYYDDMM.RunNumber-BranchName"
 outputs:

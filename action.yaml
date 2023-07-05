@@ -1,0 +1,9 @@
+name: Generate Build Number
+author: Novisto
+description: Generate a build number in the format of "YYYYDDMM.RunNumber-BranchName"
+outputs:
+  build_number:
+    description: Resulting Build Number
+runs:
+  using: node16
+  main: "dist/index.js"

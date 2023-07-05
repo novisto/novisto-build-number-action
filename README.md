@@ -12,5 +12,5 @@ The build number
 
 ```yaml
 - name: Generate build number
-  uses: actions/novisto-build-number-action@1.0.0
+  uses: actions/novisto-build-number-action@v1.0.0
 ```

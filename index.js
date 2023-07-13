@@ -19,9 +19,10 @@ async function run() {
         let tag;
 
         if (ref.startsWith(ref_tags)) {
-            // find the version number at the end of the tag, should be in the format "refs/tags/{service}/{version}"
+            // find the version number at the end of the tag,
+            //  should be in the format "refs/tags/{service}/{version}" or "refs/tags/{version}"
             const parts = ref.split("/");
-            tag = parts[3];
+            tag = parts[parts.length - 1];
         } else if (ref.startsWith(ref_heads)) {
             // substring everything after the length of the starting string
             tag = ref.substring(ref_heads.length)

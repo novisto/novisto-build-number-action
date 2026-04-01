@@ -1,6 +1,6 @@
 {
   "name": "build_number",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@actions/core": "^1.10.0",
-    "@actions/github": "^6.0.0"
+    "@actions/core": "^2.0.0",
+    "@actions/github": "^8.0.0"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.38.1"
